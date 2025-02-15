@@ -39,7 +39,7 @@ class StartPage extends StatelessWidget {
           // Button
           ElevatedButton.icon(
             style: ElevatedButton.styleFrom(
-              backgroundColor: const Color.fromARGB(255, 7, 143, 255),
+              backgroundColor: const Color.fromARGB(255, 0, 126, 228),
             ),
             onPressed: () {
               print('Quiz started');

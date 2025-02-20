@@ -19,7 +19,7 @@ class QuestionIdentifier extends StatelessWidget {
       alignment: Alignment.center,
       decoration: BoxDecoration(
         color: isCorrectAnswer
-            ? Color.fromARGB(255, 6, 246, 130)
+            ? Color.fromARGB(255, 22, 227, 128)
             : Color.fromARGB(255, 255, 53, 123),
         borderRadius: BorderRadius.circular(100),
       ),
@@ -27,7 +27,7 @@ class QuestionIdentifier extends StatelessWidget {
         questionNumber.toString(),
         style: TextStyle(
           fontWeight: FontWeight.bold,
-          color: Color.fromARGB(255, 22, 2, 56),
+          color: Colors.white,
         ),
       ),
     );

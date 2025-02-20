@@ -57,7 +57,7 @@ class _QuizState extends State<Quiz> {
       );
     }
 
-    final Color color1 = Colors.blue;
+    final Color color1 = const Color.fromARGB(255, 83, 163, 228);
     final Color color2 = Colors.purple;
 
     Alignment begin = Alignment.topLeft;

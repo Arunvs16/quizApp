@@ -39,7 +39,8 @@ class StartPage extends StatelessWidget {
           // Button
           ElevatedButton.icon(
             style: ElevatedButton.styleFrom(
-              backgroundColor: const Color.fromARGB(255, 0, 126, 228),
+              elevation: 5,
+              backgroundColor: Colors.white,
             ),
             onPressed: () {
               print('Quiz started');
@@ -47,12 +48,12 @@ class StartPage extends StatelessWidget {
             },
             icon: Icon(
               Icons.arrow_right_alt,
-              color: Colors.white,
+              color: Colors.blue,
             ),
             label: Text(
               'Start Quiz',
               style: TextStyle(
-                color: Colors.white,
+                color: Colors.blue,
               ),
             ),
           )

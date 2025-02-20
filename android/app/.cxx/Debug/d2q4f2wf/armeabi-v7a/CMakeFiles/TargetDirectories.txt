@@ -1,0 +1,2 @@
+D:/Udemy/quizApp/android/app/.cxx/Debug/d2q4f2wf/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/Udemy/quizApp/android/app/.cxx/Debug/d2q4f2wf/armeabi-v7a/CMakeFiles/rebuild_cache.dir

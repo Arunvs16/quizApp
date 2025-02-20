@@ -49,7 +49,7 @@ class ResultPage extends StatelessWidget {
               'You answered $numCorrectAnswers of $numTotalQuestions questions correctly!',
               textAlign: TextAlign.center,
               style: GoogleFonts.aBeeZee(
-                color: Colors.white,
+                color: Colors.yellow,
                 fontSize: 22,
               ),
             ),
@@ -64,10 +64,11 @@ class ResultPage extends StatelessWidget {
             ElevatedButton.icon(
               icon: Icon(
                 Icons.refresh,
-                color: Colors.blue,
+                color: Colors.yellow,
               ),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.white,
+                elevation: 10,
+                backgroundColor: Colors.blueGrey,
               ),
               onPressed: () {
                 onPressed();
@@ -75,7 +76,7 @@ class ResultPage extends StatelessWidget {
               },
               label: Text(
                 'Restart Quiz',
-                style: TextStyle(color: Colors.blue),
+                style: TextStyle(color: Colors.yellow),
               ),
             ),
           ],
